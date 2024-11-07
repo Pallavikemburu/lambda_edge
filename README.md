@@ -52,18 +52,8 @@ If the object is already cached by the CloudFront edge this function will not be
 ## Setup (in short)
 
 - Create a new Lambda function in the region us-east-1 (North Virginia) and a *Node.js 6.10* environment.
-- Adjust the function code [lambdaRewrite.js](./lambdaRewrite.js) and/or its config options as required and upload (or copy-paste) it to your Lambda function.
+- Adjust the function code and/or its config options as required and upload (or copy-paste) it to your Lambda function.
 - Publish the Lambda function as a new version.
 - Add trigger "CloudFront", associate with the CloudFront distribution and the distribution's cache behaviour of your choice (e.g. "*") and select "Origin Request" as CloudFront event.
 
 
-## More information
-
-Find more information about AWS Lambda@Edge here: https://docs.aws.amazon.com/lambda/latest/dg/lambda-edge.html
-
-
-## License
-
-Do whatever you want. A link back to this [repository](https://github.com/CloudUnder/lambda-edge-nice-urls), comments, feedback, contributions are appreciated, but not required.
-
-[Cloud Under Ltd](https://cloudunder.io) is a small web engineering company based in Manchester, UK.
