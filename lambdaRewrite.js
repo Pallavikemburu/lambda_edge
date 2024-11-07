@@ -1,6 +1,3 @@
-/* Public domain project by Cloud Under (https://cloudunder.io).
- * Repository: https://github.com/CloudUnder/lambda-edge-nice-urls
- */
 
 const config = {
 	suffix: '.html',
